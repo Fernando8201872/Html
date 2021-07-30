@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 2</title>
+    <style>
+       
+        table, td, th{
+            border: 1px solid rgba(25, 13, 201, 0.678);
+        }
+     
+    </style>
+</head>
+<body>
+    <h1>Clase 2</h1>
+    
+
+    <hr>
+
+    <h2>Listas</h2>
+    <h3>Listas ordenadas+</h3>
+    <ol>
+        <li>perro</li>
+        <li>gato</li>
+        <li>perro</li>
+        <li>gato</li>
+        <li>perro</li>
+        <li>gato</li>
+        <li>perro</li>
+        <li>gato</li>
+    </ol>
+    <h3>Listas desordenadas+</h3>
+    <ul>
+        <li>perro</li>
+        <li>gato</li>
+        <li>perro</li>
+        <li>gato</li>
+        <li>perro</li>
+        <li>gato</li>
+        <li>perro</li>
+        <li>gato</li>
+    </ul>
+    <h3>Listas anidada</h3>
+           <ol>
+            <li>perro0</li>
+            <li>gato0</li>
+            <li>perro0</li>
+               <ul>
+                <li>gato1</li>
+                   <ol>
+                    <li>gato2</li>
+                    <li>perro2</li>
+                   </ol>
+                <li>perro1</li>
+               </ul>
+            <li>perro0</li>
+            <li>gato0</li>
+ 
+           </ol>
+
+       <h3>Tablas</h3>
+       <table>
+           <tr>
+              <td>perro0</td>
+              <td>perro1</td>
+              <td>perro2</td>
+              <td>perro3</td>
+           </tr>
+
+           <tr>
+            <td rowspan="2" colspan="2">perro0</td>
+            <td>perro1</td>
+            <td colspan="2">perro2</td>
+            <!-- colsapn es para que las celdas  -->
+            
+           </tr>
+        </table>
+
+  <h3>  tabla con tr,tbody, thead</h3>
+        <table>
+            <tfoot>
+                <td>perro5</td>
+                <td>perro5</td>
+                <td>perro5</td>
+                <td>perro5</td>
+            </tfoot>
+            <tr>
+                <td>perro3</td>
+                <td>perro3</td>
+                <td>perro3</td>
+                <td>perro3</td>
+             </tr>
+             <tbody>
+                <th>perro0</th>
+                <td>perro1</td>
+                <td>perro2</td>
+                <td>perro3</td>
+             </tbody>
+             <thead>
+                <th>perro2</th>
+                <th>perro2</th>
+                <th>perro2</th>
+                <th>perro2</th>
+             </thead>
+        </table>
+
+        <h3>EJERCICIO </h3>
+        <table>
+            <tr>
+               <td colspan="5">perro01</td>
+            </tr>
+            <tr>
+                <td rowspan="3" colspan="3" > perro0 </td>
+                <td colspan="2">perro0</td>
+                 <tr> 
+                    <td rowspan="2">perro1</td>
+                    <td>perro1</td>
+                    <tr>                      
+                        <td>perro2</td>
+                    </tr>
+                 </tr>
+             </tr>
+             <tr>
+                 <td>perro1</td>
+                 <td colspan="2">perro1</td>
+                 <td >perro</td> 
+                 <td >perro</td> 
+             </tr>
+
+             <tr>
+                <td rowspan="2" colspan="2" > perro9 </td>
+                <td >perro0</td>
+                 <tr> 
+                    <td >perro0</td>
+                    <th colspan="2" rowspan="2">perro1</th>
+                    
+                 </tr>
+             </tr>
+            <tr>
+             <!-- <td rowspan="2" colspan="2">perro0</td>
+             <td colspan="2" >perro1</td>
+             <td colspan="2" >perro2</td> -->
+             <!-- colsapn es para que las celdas  -->
+
+            </tr>
+         </table>
+
+
+         <button>enviar</button>
+</body>
+</html>
